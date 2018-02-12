@@ -1,9 +1,9 @@
 package nao.cycledev.jcp;
 
-import nao.cycledev.jcp.c2.builtinlambda.PredicateTest;
+import nao.cycledev.jcp.c4.parallelstream.ParallelStream;
 
 public class MainApp {
   public static void main(String[] args) {
-    PredicateTest.test();
+    ParallelStream.test(10_000_000);
   }
 }
